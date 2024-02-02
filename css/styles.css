@@ -77,7 +77,6 @@ img {
 }
 
 .logo {
-    color: var(--accent-color);
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -87,7 +86,7 @@ img {
     letter-spacing: 0.03em;
 
     position: relative;
-    color: #404bbf;
+    color: var(--hover-color);
 }
 
 .logo.header {
@@ -193,12 +192,9 @@ color: var(--hover-color);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
-
-
     padding: 188px 0;
     text-align: center;
-    height: 600px;
+    max-width: 1440px;
 }
 
 .hero-title {
